@@ -1,0 +1,14 @@
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\bin\Debug\net6.0\StudentskaSluzba.exe
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\bin\Debug\net6.0\StudentskaSluzba.deps.json
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\bin\Debug\net6.0\StudentskaSluzba.runtimeconfig.json
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\bin\Debug\net6.0\StudentskaSluzba.dll
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\bin\Debug\net6.0\StudentskaSluzba.pdb
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.AssemblyInfoInputs.cache
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.AssemblyInfo.cs
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.csproj.CoreCompileInputs.cache
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.dll
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\refint\StudentskaSluzba.dll
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.pdb
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\StudentskaSluzba.genruntimeconfig.cache
+C:\Users\boris\source\repos\StudentskaSluzba\StudentskaSluzba\obj\Debug\net6.0\ref\StudentskaSluzba.dll
