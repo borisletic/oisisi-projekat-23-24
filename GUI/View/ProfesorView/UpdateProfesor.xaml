@@ -1,0 +1,70 @@
+﻿<Window x:Class="GUI.View.UpdateProfesor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI.View"
+        mc:Ignorable="d"
+        Title="UpdateProfesor" Height="600" Width="600">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Informacije">
+                <Grid>
+                    <TextBlock Margin="110,15,0,0" TextWrapping="Wrap" Text="Ime*" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left" Width="29"/>
+                    <TextBox x:Name="txtIme" Margin="307,15,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,60,0,0" TextWrapping="Wrap" Text="Prezime*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtPrezime" Margin="307,60,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,105,0,0" TextWrapping="Wrap" Text="Datum rođenja*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtDatum" Margin="307,105,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,150,0,0" TextWrapping="Wrap" Text="Adresa stanovanja*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtAdresa" Margin="307,150,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,195,0,0" TextWrapping="Wrap" Text="Kontakt telefona*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtKontakt" Margin="307,195,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,240,0,0" TextWrapping="Wrap" Text="Email adresa*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtEmail" Margin="307,240,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,285,0,0" TextWrapping="Wrap" Text="Broj licne karte*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtLicna" Margin="307,285,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,330,0,0" TextWrapping="Wrap" Text="Zvanje*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtZvanje" Margin="307,330,87,0" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="110,375,0,0" TextWrapping="Wrap" Text="Godine staza*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtStaz" Margin="307,375,87,0" VerticalAlignment="Top" Height="25"/>
+
+                    <Button Content="Potvrdi" HorizontalAlignment="Left" Margin="140,470,0,0" VerticalAlignment="Top" Height="35" Width="105" Click="Button_Click_1"/>
+                    <Button Content="Odustani" HorizontalAlignment="Left" Margin="346,470,0,0" VerticalAlignment="Top" Height="35" Width="105" Click="Button_Click"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Spisak predmeta profesora">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Height="Auto"
+                     AutoGenerateColumns="False"
+                     x:Name="StudentiDataGridd"
+                        ItemsSource="{Binding Predmet, UpdateSourceTrigger=PropertyChanged}"
+                        SelectedItem="{Binding SelectedPredmet, UpdateSourceTrigger=PropertyChanged}"
+                        SelectionMode="Single" IsReadOnly="True"       
+                        Width="Auto" Margin="30,90,30,60">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Sifra" Binding="{Binding Sifra_Predmeta}" Width="60">
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Naziv" Binding="{Binding Naziv_Predmeta}" Width="200"/>
+                            <DataGridTextColumn Header="Godina studija" Binding="{Binding Godina_Predmeta}" Width="140"/>
+                            <DataGridTextColumn Header="Semestar" Binding="{Binding Semestar}" Width="110"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <Button Content="Dodaj predmet" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top" Width="130" Height="35" Click="DodajPredmet"/>
+                    <Button Content="Ukloni predmet" HorizontalAlignment="Left" Margin="180,28,0,0" VerticalAlignment="Top" Width="130" Height="35" Click="UkloniPredmet"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

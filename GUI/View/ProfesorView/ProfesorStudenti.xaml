@@ -1,0 +1,29 @@
+﻿<Window x:Class="GUI.View.ProfesorView.ProfesorStudenti"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI.View.ProfesorView"
+        mc:Ignorable="d"
+        Title="ProfesorStudenti" Height="450" Width="800">
+    <Grid>
+        <DataGrid Height="Auto"
+         AutoGenerateColumns="False"
+         x:Name="StudentiDataGrid"
+            ItemsSource="{Binding Student, UpdateSourceTrigger=PropertyChanged}"
+            SelectedItem="{Binding SelectedStudent, UpdateSourceTrigger=PropertyChanged}"
+            SelectionMode="Single" IsReadOnly="True"       
+            Width="Auto" Margin="30,56,30,30">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width ="*" Header="Indeks" Binding="{Binding Indeks}"/>
+                <DataGridTextColumn Width ="*" Header="Ime" Binding="{Binding Ime}"/>
+                <DataGridTextColumn Width ="*" Header="Prezime" Binding="{Binding Prezime}"/>
+                <DataGridTextColumn Width ="2*" Header="Naziv Predmeta" Binding="{Binding Naziv_Predmeta}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="txtSearch" Height="22" Margin="30,29,583,383"/>
+        <Button Click="Search" Width="22" Height="22" HorizontalAlignment="Left" Margin="220,28,0,0" VerticalAlignment="Top" Background="White" BorderBrush="Transparent">
+            <Image x:Name="imgSearch" Width="22" Height="22" Source="../../Slike/Search.png"/>
+        </Button>
+    </Grid>
+</Window>

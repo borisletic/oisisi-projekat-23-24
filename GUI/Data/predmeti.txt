@@ -1,0 +1,20 @@
+1|E43|Tehnologije i alati u mašinskom učenju|9|L|4|8
+2|E79|Napredni algoritmi i strukture podataka|1|Z|4|6
+3|E76|Testiranje softvera|1|L|1|9
+4|E94|Specifikacija i modeliranje softvera|4|L|3|4
+5|E12|Uvod u informacione tehnologije u geomatici|1|L|3|8
+6|E23|Tehnologije i sistemi eUprave|2|Z|1|4
+7|E60|Klijentske web tehnologije|6|Z|3|5
+8|E75|Internet mreže|7|L|1|7
+9|E67|XML i veb servisi|2|L|2|10
+10|E51|Metodologije razvoja softvera|10|Z|3|4
+11|E74|Uvod u informacione tehnologije u geomatici|4|Z|3|8
+12|E17|Poslovna informatika|5|L|3|10
+13|E8|Mašinsko učenje|9|Z|3|10
+14|E19|Soft kompjuting|3|L|1|10
+15|E24|Specifikacija i modeliranje softvera|10|Z|2|6
+16|E38|Informaciona bezbednost|5|Z|3|7
+17|E9|Serverske web tehnologije|4|Z|4|4
+18|E37|Objektno orijentisano programiranje 1|9|Z|2|7
+19|E5|Servisno orijentisane arhitekture|7|L|2|7
+20|E62|Sistemi bazirani na znanju|7|L|3|4

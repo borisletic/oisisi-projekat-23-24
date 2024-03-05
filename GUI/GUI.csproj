@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="About.png" />
+    <None Remove="Delete.png" />
+    <None Remove="Edit.png" />
+    <None Remove="Open.png" />
+    <None Remove="Save.png" />
+    <None Remove="Search.png" />
+    <None Remove="Slike\About.png" />
+    <None Remove="Slike\Delete.png" />
+    <None Remove="Slike\Edit.png" />
+    <None Remove="Slike\Katedra.png" />
+    <None Remove="Slike\Open.png" />
+    <None Remove="Slike\Plus.png" />
+    <None Remove="Slike\Save.png" />
+    <None Remove="Slike\Search.png" />
+    <None Remove="Slike\X.png" />
+    <None Remove="X.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLI\CLI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Slike\About.png" />
+    <Resource Include="Slike\Delete.png" />
+    <Resource Include="Slike\Edit.png" />
+    <Resource Include="Slike\Katedra.png" />
+    <Resource Include="Slike\Open.png" />
+    <Resource Include="Slike\Plus.png" />
+    <Resource Include="Slike\Save.png" />
+    <Resource Include="Slike\Search.png" />
+    <Resource Include="Slike\X.png" />
+  </ItemGroup>
+
+</Project>

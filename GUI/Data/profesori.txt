@@ -1,0 +1,20 @@
+1|Dragoslava|Raspopović|01.04.1984|21|276681361|dragoslava.raspopovic@uns.ac.rs|38168734572|docent|8|1
+2|Stojko|Prvanović|14.02.1984|22|403390402|stojko.prvanovic@uns.ac.rs|+38164533567|redovni profesor|29|2
+3|Budimir|Talović|13.11.1993|23|176283015|budimir.talovic@uns.ac.rs|+38163433336|redovni profesor|25|2
+4|Dobrica|Batrović|31.05.1977|24|39606943|dobrica.batrovic@uns.ac.rs|+38163651140|docent|26|1
+5|Arsenije|Balabanović|04.11.1985|25|3296960|arsenije.balabanovic@uns.ac.rs|+38166421759|docent|16|1
+6|Rastko|Bučevac|31.08.1968|26|520064301|rastko.bucevac@uns.ac.rs|+38166705409|vanredni profesor|6|1
+7|Bogdanka|Ložnjaković|26.11.1971|27|306180424|bogdanka.loznjakovic@uns.ac.rs|+38163904215|vanredni profesor|14|2
+8|Veljko|Miočinović|24.06.1970|28|125955509|veljko.miocinovic@uns.ac.rs|+38169997020|vanredni profesor|8|1
+9|Igor|Krečković|17.05.1986|29|973133377|igor.kreckovic@uns.ac.rs|+3816101030|redovni profesor|5|2
+10|Steva|Iljanović|15.07.1973|30|914012289|steva.iljanovic@uns.ac.rs|+38164163699|vanredni profesor|9|1
+11|Jevrosima|Toskić|17.10.1971|31|800155523|jevrosima.toskic@uns.ac.rs|+38165326720|redovni profesor|11|2
+12|Aćim|Čaluković|25.02.1991|32|884798807|acim.calukovic@uns.ac.rs|+38165602843|docent|5|1
+13|Gaga|Dabarčić|14.12.1965|33|263457325|gaga.dabarcic@uns.ac.rs|+38163466502|vanredni profesor|11|2
+14|Stevanija|Graonić|06.06.1962|34|392506493|stevanija.graonic@uns.ac.rs|+38166834413|docent|5|2
+15|Spomenko|Oblaković|31.10.1980|35|963528130|spomenko.oblakovic@uns.ac.rs|+3816757415|redovni profesor|15|1
+16|Jakov|Čvorkov|08.08.1982|36|955425450|jakov.cvorkov@uns.ac.rs|+38169416210|docent|10|1
+17|Leonora|Đurikin|17.11.1980|37|982033521|leonora.durikin@uns.ac.rs|+38167769265|docent|16|1
+18|Stojmen|Banjalić|29.07.1973|38|284423009|stojmen.banjalic@uns.ac.rs|+3816103067|redovni profesor|12|2
+19|Pauna|Jojčić|19.11.1960|39|999930819|pauna.jojcic@uns.ac.rs|+38167157490|docent|19|1
+20|Miloje|Serdarević|16.07.1993|40|904283709|miloje.serdarevic@uns.ac.rs|+38169893744|redovni profesor|23|2

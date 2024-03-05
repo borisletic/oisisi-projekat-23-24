@@ -1,0 +1,47 @@
+﻿<Window x:Class="GUI.View.UpdatePredmet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI.View"
+        mc:Ignorable="d"
+        Title="UpdatePredmet" Height="585" Width="547">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Informacije">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" Text="Sifra predmeta*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtSP" Margin="200,50,81,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="50,90,0,0" TextWrapping="Wrap" Text="Naziv predmeta*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtNP" Margin="200,90,81,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="50,130,0,0" TextWrapping="Wrap" Text="Semestar*" VerticalAlignment="Top" FontSize="14"/>
+                    <ComboBox x:Name="ddlSemestar" Margin="200,130,81,0" VerticalAlignment="Top"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="50,170,0,0" TextWrapping="Wrap" Text="Godina predmeta*" VerticalAlignment="Top" FontSize="14"/>
+                    <ComboBox x:Name="ddlGodinaPredmeta" Margin="200,170,81,0" VerticalAlignment="Top"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="50,210,0,0" TextWrapping="Wrap" Text="ESPB*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtESPB" Margin="200,210,81,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="50,250,0,0" TextWrapping="Wrap" Text="Predmetni profesor*" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtPP" Margin="200,250,150,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25" IsReadOnly="True"/>
+
+                    <Button Content="Potvrdi" HorizontalAlignment="Left" Margin="129,474,0,0" VerticalAlignment="Top" Height="35" Width="105" Click="Button_Click_1"/>
+                    <Button Content="Odustani" HorizontalAlignment="Left" Margin="320,474,0,0" VerticalAlignment="Top" Height="35" Width="105" Click="Button_Click"/>
+                    <Button x:Name="ButtonDodaj" Content="+" HorizontalAlignment="Left" Margin="405,245,0,0" VerticalAlignment="Top" Width="35" Height="35" FontSize="14" Click="DodajProfesora"/>
+                    <Button x:Name="ButtonObrisi" Content="-" HorizontalAlignment="Left" Margin="457,245,0,0" VerticalAlignment="Top" Width="35" Height="35" FontSize="12" Click="ObrisiProfesora"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Studenti Polozeni">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Studenti Nepolozeni">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="GUI.View.ProfesorView.AddPredmetToProfesor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI.View.ProfesorView"
+        mc:Ignorable="d"
+        Title="AddPredmetToProfesor" Height="380" Width="450">
+    <Grid>
+        <ListBox x:Name="listBox1" Margin="50,40,50,110"/>
+        <Button Content="Potvrdi" HorizontalAlignment="Left" Margin="50,293,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="DodajPredmet"/>
+        <Button Content="Odustani" HorizontalAlignment="Left" Margin="295,293,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="Odustani"/>
+    </Grid>
+</Window>
