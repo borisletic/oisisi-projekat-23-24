@@ -1,6 +1,2 @@
-# Predmetni projekat iz predmeta OISISI
+# Predmetni projekat iz predmeta OISISI 2023/2024
 
-Članovi tima:
-
-* Boris Letić RA 207/2021
-* Nikola Tešić RA 222/2021
